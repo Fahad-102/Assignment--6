@@ -1,16 +1,80 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Digital Tools Buying Website
 
-Currently, two official plugins are available:
+<p align="center">
+  <b>A modern and responsive digital tools e-commerce platform</b>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+# Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+lIVE : https://assignment-06-fahad.netlify.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# GitHub Repository
+
+ Repo : https://github.com/Fahad-102/Assignment--6
+
+
+
+# Project Description
+
+Digital Tools Buying Website is a sleek and user-friendly platform where users can explore various digital tools, view detailed information, and manage their shopping cart efficiently.
+
+The project focuses on providing a smooth user experience with interactive UI, real-time cart updates, and responsive design across all devices.
+
+
+# Technologies Used
+
+<p>
+   React.js <br>
+   Tailwind CSS <br>
+   DaisyUI <br>
+   JavaScript (ES6+) <br>
+   React-Toastify <br>
+   JSON Data  
+</p>
+
+
+
+# Key Features
+
+# Smart Cart System
+
+* Add and remove products بسهولة
+* Real-time cart count update in Navbar
+* One-click “Proceed to Checkout” clears all items
+
+# Interactive Notifications
+
+* Toast alerts for add, remove, and checkout actions
+* Instant user feedback for better UX
+
+# Fully Responsive Design
+
+* Optimized for mobile, tablet, and desktop
+* Clean and modern UI based on Figma design
+
+
+# Optional Features Implemented
+
+ Button changes to “Added” after clicking Buy Now
+ Cart auto resets after checkout
+ Smooth toggle between Product & Cart section
+
+
+
+# What I Learned
+
+* React component structure
+* State management (cart system)
+* UI design using Tailwind & DaisyUI
+* Handling user interaction with Toast notifications
+
+
+# Conclusion
+
+This project helped me build a strong foundation in React and modern frontend development by implementing real-world e-commerce features .
+Thanks PH Team For EveryThing.
+
+
