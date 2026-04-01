@@ -17,7 +17,6 @@ const Models = ({ models, cart, setCart }) => {
           key={item.id} 
           className="relative bg-white border border-blue-50 rounded-[2.5rem] p-8 shadow-sm flex flex-col items-start transition-all hover:shadow-md"
         >
-          {/* --- Dynamic Badge (Added Here) --- */}
           {item.tag && (
             <div className="absolute top-6 right-6">
               <span className={`px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${
@@ -30,18 +29,15 @@ const Models = ({ models, cart, setCart }) => {
             </div>
           )}
 
-          {/* Icon Section */}
           <div className="w-16 h-16 bg-white border border-gray-100 rounded-full flex justify-center items-center mb-8 shadow-sm">
             <img src={item.icon} alt={item.name} className="w-10 h-10 object-contain" />
           </div>
 
-          {/* Title & Description */}
           <h3 className="text-2xl font-bold text-[#0F172A] mb-3">{item.name}</h3>
           <p className="text-slate-500 text-base leading-relaxed mb-6 text-left">
             {item.description}
           </p>
 
-          {/* Pricing */}
           <div className="flex items-baseline mb-8">
             <span className="text-4xl font-extrabold text-[#0F172A]">${item.price}</span>
             <span className="text-gray-400 text-lg ml-1">
@@ -49,7 +45,6 @@ const Models = ({ models, cart, setCart }) => {
             </span>
           </div>
 
-          {/* Features List */}
           <ul className="space-y-4 mb-10 w-full">
             {item.features && item.features.map((feature, idx) => (
               <li key={idx} className="flex items-center gap-3 text-slate-600 font-medium text-sm">
@@ -59,7 +54,6 @@ const Models = ({ models, cart, setCart }) => {
             ))}
           </ul>
 
-          {/* Button */}
           <button
             className="w-full bg-[#8B2CFF] hover:bg-[#7a25e0] text-white py-4 rounded-full text-lg font-bold transition-all duration-200 mt-auto"
             onClick={() => addToCart(item)}
