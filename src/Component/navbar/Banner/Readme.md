@@ -8,11 +8,12 @@
 
 # Live Demo
 
- https://your-live-site-link.com
+
+lIVE : https://assignment-06-fahad.netlify.app/
 
 # GitHub Repository
 
- https://github.com/your-username/your-repo
+ Repo : https://github.com/Fahad-102/Assignment--6
 
 
 
