@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Pack",
+    "description": "Perfect for beginners to explore basic tools.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Access to 10 free tools", "Basic templates", "Community support", "1 project per month"],
+    "icon": "/products/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Tools",
+    "description": "Best for professionals looking for advanced features.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Most Popular",
+    "tagType": "popular",
+    "features": ["Access to all premium tools", "Unlimited templates", "Priority support", "Unlimited projects", "Cloud sync", "Advanced analytics"],
+    "icon": "/products/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise Suite",
+    "description": "For teams and businesses to collaborate efficiently.",
+    "price": 99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Everything in Pro", "Team collaboration", "Custom integrations", "Dedicated support", "SLA guarantee", "Custom branding"],
+    "icon": "/products/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Design Kit",
+    "description": "Creative assets and templates for designers.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["100+ templates", "Custom icons", "Export to PDF", "Design automation"],
+    "icon": "/products/package.png"
+  },
+  {
+    "id": 5,
+    "name": "Analytics Pro",
+    "description": "Advanced analytics tools for data-driven decisions.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Real-time dashboards", "Custom reports", "Export CSV/Excel", "Integration with other tools"],
+    "icon": "/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Marketing Boost",
+    "description": "Grow your business with marketing automation tools.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Email campaigns", "Social media scheduler", "Analytics tracking", "A/B testing"],
+    "icon": "/products/writing_2327400 1.png"
+  }
+]
